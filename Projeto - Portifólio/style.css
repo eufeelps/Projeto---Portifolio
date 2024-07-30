@@ -1,0 +1,149 @@
+body{
+    font-family: Poppins;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 200px;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#header{
+    font-style: normal;
+    font-size: 12px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #070F18;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#topMenu{
+    text-align: right;
+    margin-top: 70px;
+}
+
+#topMenu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#topMenu li{
+    display: inline-block;
+    margin-left: 30px;
+    color: #575455;
+}
+
+a{
+    color: #575455;
+    text-decoration: none;
+}
+
+#headerCta h1{
+    font-size: 50px;
+    margin-top: 65px;
+}
+
+#headerCta p{
+    margin-bottom: 50px;
+}
+
+button{
+    background-color: #1F7CFF;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    border: 0;
+    width: 170px;
+    height: 45px;
+}
+
+#photo{
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.headerLogo{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+}
+
+#clientsText{
+    margin-top: 122px;
+    font-weight: 600;
+    font-size: 17px;
+}
+#services{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+h2.Red{
+    color: #F75C4E;
+    font-size: 18px;
+}
+
+h1.Black{
+    color: black;
+    font-size: 40px;
+}
+
+p.Gray{
+    color: #575455;
+    font-size: 18px;
+}
+
+.icons{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+#imageCta{
+    margin-bottom: 100px;
+}
+
+#textCta{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+input{
+    background-color: #F5F6FB;
+    width: 406px;
+    height: 48px;
+    top: 1627px;
+    left: 887px;
+    gap: 0px;
+    border: 0;
+    border-radius: 50px;
+    opacity: 0px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: #1F7CFF;
+    border-radius: 50px;
+}
+
+#textCallAction{
+    display: grid;
+    margin: 0px;
+}
+
+.imgs{
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
